@@ -78,7 +78,7 @@ section:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-#image-container-6N4X0 {
+#image-container-6NX0 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,12 +86,12 @@ section:hover {
   }
   
   /* Make the image small */
-  #image-container-6N4X0 img {
+  #image-container-6NX0 img {
     max-width: 50%; /* Adjust the maximum width as needed */
     max-height: 50%; /* Adjust the maximum height as needed */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
-  #image-container-6N4X0 a {
+  #image-container-6NX0 a {
     display: flex;
     justify-content: center;
   }
