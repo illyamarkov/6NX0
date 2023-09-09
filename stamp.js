@@ -27,43 +27,43 @@ if (currentURL.endsWith(".xyz")) {
     console.log(patternXY0000.test(currentURL));
     if (patternXY0000.test(currentURL)) {
         // Do something for XY0000 with .xyz domain
-        image.src="XY0000.png";
+        image.src="https://500009.xyz/XY0000.png";
         image.alt="Image for websites matching XY0000 with .xyz domain";
     } 
     else if (pattern0000XY.test(currentURL)) {
         // Do something for 0000XY with .xyz domain
-        image.src="0000XY.png" ;
+        image.src="https://500009.xyz/0000XY.png" ;
         image.alt="Image for websites matching 0000XY with .xyz domain";
     } 
     else if (patternX0000Y.test(currentURL)) {
         // Do something for X0000Y with .xyz domain
-        image.src="X0000Y.png";
+        image.src="https://500009.xyz/X0000Y.png";
         image.alt="Image for websites matching X0000Y with .xyz domain";
     } 
     else if (patternX00000.test(currentURL)) {
         // Do something for X00000 with .xyz domain
-        image.src = "X00000.png";
+        image.src = "https://500009.xyz/X00000.png";
         image.alt = "Image for websites matching X00000 with .xyz domain";
     } 
     else if (pattern00000X.test(currentURL)) {
         // Do something for 00000X with .xyz domain
-        image.src = "00000X.png";
+        image.src = "https://500009.xyz/00000X.png";
         image.alt = "Image for websites matching 00000X with .xyz domain";
     } 
     else if (pattern000000.test(currentURL)) {
         // Do something for 000000 with .xyz domain
-        image.src = "000000.png";
+        image.src = "https://500009.xyz/000000.png";
         image.alt = "Image for websites matching 000000 with .xyz domain";
     } 
     // Handle other cases with .xyz domain
     else {
-        image.src = "OTHER.png";
+        image.src = "https://500009.xyz/OTHER.png";
         image.alt = "Image for other patterns with .xyz domain";
     }
 } 
 // Handle cases without .xyz domain
 else {
-    image.src = "NOTXYZ.png";
+    image.src = "https://500009.xyz/NOTXYZ.png";
     image.alt = "Image for websites without .xyz domain";
 }
 
